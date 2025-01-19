@@ -34,4 +34,4 @@ Este repositório contém uma implementação em C para a validação de número
 - Verificar o primeiro dígito verificador.
 - Verificar o segundo dígito verificador.
 - Saída: O programa exibe se o CPF é válido ou inválido.
-- O programa continua ate encontrar EOF.
+- O programa continua até encontrar o EOF.
