@@ -9,6 +9,7 @@ int main(void)
 
     while (1)
     {
+        printf("Digite um CPF: ");
         if (scanf("%s", cpf) == EOF)
         {
             break;
