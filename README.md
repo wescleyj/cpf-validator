@@ -24,7 +24,7 @@ Este repositório contém uma implementação em C para a validação de número
     ```
 4. Execute o programa:
    ```bash
-   verificador
+   ./verificador
    ```
 5.Insira um CPF no formato 12345678909 ou 123.456.789-09 (com ou sem pontos e traços) quando solicitado.
 
