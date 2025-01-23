@@ -1,37 +1,38 @@
-# Verificador de CPF em C
+# CPF Validator in C
 
-Este repositório contém uma implementação em C para a validação de números de CPF (Cadastro de Pessoas Físicas). O programa verifica se o CPF fornecido é válido com base nos dígitos verificadores e nas regras do algoritmo oficial.
+This repository contains a C implementation for validating Brazilian CPF (Cadastro de Pessoas Físicas) numbers. The program checks if the provided CPF is valid based on the verification digits and the official algorithm rules.
 
-## 📋 Funcionalidades
+## 📋 Features
 
-- Validação de números de CPF informados pelo usuário.
-- Cálculo dos dígitos verificadores.
-- Exibição de mensagens indicando se o CPF é válido ou inválido.
+- Validation of user-provided CPF numbers.
+- Calculation of verification digits.
+- Displays messages indicating whether the CPF is valid or invalid.
 
-## 🚀 Como Usar
+## 🚀 How to Use
 
-1. Clone este repositório:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/wescleyj/verificador-cpf-c.git
+   git clone https://github.com/wescleyj/cpf-validator.git
    ```
-2. Entre na pasta do repositório clonado:
+2. Navigate to the cloned repository folder:
    ```bash
-   cd verificador-cpf-c
+   cd cpf-validator
    ```
-3. Clone este repositório:
+3. Compile the program:
    ```bash
-    gcc -o verificador verificador_cpf.c
-    ```
-4. Execute o programa:
-   ```bash
-   verificador
+   gcc -o validator cpf-validator.c
    ```
-5.Insira um CPF no formato 12345678909 ou 123.456.789-09 (com ou sem pontos e traços) quando solicitado.
+4. Run the program:
+   ```bash
+   ./validator
+   ```
+5. Enter a CPF in the format `12345678909` or `123.456.789-09` (with or without dots and dashes) when prompted.
 
-## 🛠 Estrutura do Código
-- Entrada: O programa solicita ao usuário que insira um número de CPF.
-- Processamento: A validação é realizada seguindo os passos do algoritmo oficial:
-- Verificar o primeiro dígito verificador.
-- Verificar o segundo dígito verificador.
-- Saída: O programa exibe se o CPF é válido ou inválido.
-- O programa continua até encontrar o EOF.
+## 🛠 Code Structure
+- **Input**: The program prompts the user to enter a CPF number.
+- **Processing**: Validation follows the steps of the official algorithm:
+  - Verify the first check digit.
+  - Verify the second check digit.
+- **Output**: The program displays whether the CPF is valid or invalid.
+- The program continues running until EOF is encountered.
+
